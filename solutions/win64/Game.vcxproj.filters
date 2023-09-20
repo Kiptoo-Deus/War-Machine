@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\Code\StdAfx.cpp" />
+    <ClCompile Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\solutions\win64\Code_uber.cpp">
+      <Filter>UBER FILES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\solutions\win64\Components_uber.cpp">
+      <Filter>UBER FILES</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\Code\GamePlugin.cpp" />
+    <ClInclude Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\Code\GamePlugin.h" />
+    <ClInclude Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\Code\StdAfx.h" />
+    <ClInclude Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\Code\Components\Player.cpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\Code\Components\Player.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\Code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\user\Documents\CRYENGINE Projects\War Machine\solutions\win64\Game.autogen.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{4EFF2A15-7227-34FC-AF8E-CACC9F1C6B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{226F9D21-7CD3-3AC6-925B-1B18D847F0D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UBER FILES">
+      <UniqueIdentifier>{6FF74E3B-B913-3584-847F-061F7FF89595}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

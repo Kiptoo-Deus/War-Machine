@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOCUMENTS\CRYENGINE PROJECTS\WAR MACHINE\SOLUTIONS\WIN64\CMAKEFILES\DE94F58E7326295952BE4FEF5FB354EF\GENERATE.STAMP.RULE
+setlocal
+"C:\Users\user\AppData\Local\Programs\CRYENGINE Launcher\Engines\crytek\cryengine-57-lts\5.7.1\Tools\CMake\Win32\bin\cmake.exe" "-SC:/Users/user/Documents/CRYENGINE Projects/War Machine/Code" "-BC:/Users/user/Documents/CRYENGINE Projects/War Machine/solutions/win64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/user/Documents/CRYENGINE Projects/War Machine/solutions/win64/Game.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
