@@ -36,10 +36,10 @@ void CPlayerComponent::Initialize()
 	m_pInputComponent->RegisterAction("player", "movebackward", [this](int activtionMode, float value) {m_movementDelta.y = -value; });//move player backward
 	m_pInputComponent->BindAction("player", "movebackward", eAID_KeyboardMouse, eKI_S, true, true, false);
 
-	m_pInputComponent->RegisterAction("player", "moveleft", [this](int activtionMode, float value) {m_movementDelta.y = -value; });//move player left
+	m_pInputComponent->RegisterAction("player", "moveleft", [this](int activtionMode, float value) {m_movementDelta.x = -value; });//move player left
 	m_pInputComponent->BindAction("player", "moveleft", eAID_KeyboardMouse, eKI_A, true, true, false);
 
-	m_pInputComponent->RegisterAction("player", "moveright", [this](int activtionMode, float value) {m_movementDelta.y = value; });//move player right
+	m_pInputComponent->RegisterAction("player", "moveright", [this](int activtionMode, float value) {m_movementDelta.x = value; });//move player right
 	m_pInputComponent->BindAction("player", "moveright", eAID_KeyboardMouse, eKI_D, true, true, false);
 	
 }
