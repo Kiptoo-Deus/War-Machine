@@ -29,10 +29,6 @@ public:
 	// ~ISystemEventListener
 
 	
-
-
-
-	// Helper function to get the CGamePlugin instance
 	// Note that CGamePlugin is declared as a singleton, so the CreateClassInstance will always return the same pointer
 	static CGamePlugin* GetInstance()
 	{
